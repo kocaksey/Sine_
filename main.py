@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
+
+
 c=input("Number of profile: ")
 c=int(c)
 total =0
@@ -26,4 +28,5 @@ plt.xlabel('X values from 0 to 2pi')
 plt.title('Plot of sine from 0 to 2pi')
 # plt.legend()
 plt.show()
+
 
